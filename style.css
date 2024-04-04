@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+  /*configurção do menu*/
+  :root{
+    --cor1:#011526;
+    --cor2:#0367A6;
+    --cor3:#024873;
+    --cor4:#6BF2E5;
+    --cor5:#F2EDA0;
+  }
+  *{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    padding: 0px 50px 50px 50px;
+    background-color: white;
+    color: black;
+  }
+  nav{
+      font-family: 'Lato';
+      font-weight: normal;  
+  }
+  nav a{
+    color:var(--cor4);
+      text-decoration: none;
+  }
+  nav li{
+      list-style: none;
+      display: inline-block;
+      margin: 2px;
+      padding: 8px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
+      background-color: var(--cor1);
+      transition: background-color 1s;
+  }
+  nav li:hover{
+  background-color:#333;
+  color:#fff;
+  box-shadow:0 3px 10px 0 #CCC;
+  }
+  /*configuração dos itens escondidos*/
+  .itensmenu{
+      margin-top:5px ;
+      margin-left: -20px;
+      display: none;
+      position: absolute;
+  }
+  .itensmenu a{
+      padding: 5px;
+      background-color: #606060;
+      display: block;
+  }
+  .itensmenu a:hover{
+      background-color: rgb(7, 159, 179);
+      color: black;
+  }
+  .dropdown:hover .itensmenu{
+      display: block;
+  }
+  body{
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  }
+.container{
+     max-width: 600px;
+     margin: auto; 
+     padding: 20px;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+    .produto-info {
+        background-color: var(--cor4);
+        color: #03283f;
+        padding: 20px;
+        margin: auto;
+        width: 450px;
+        margin-top: 20px;
+        border-radius: 20px 40px;
+     }
+     li{
+        text-align: left;
+     }
+     h2,h3{
+        margin-bottom: 30px;
+     }
+     p{
+        text-align: justify;
+     }
+     button{
+        margin-bottom: 20px;
+     }
+     .produto-info a{
+        text-decoration: none;
+     }
+     .produto-info a:hover{
+        background-color: dimgray;
+        color: rgb(173, 201, 15);
+     }
