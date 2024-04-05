@@ -16,7 +16,7 @@
     padding: 0px 50px 50px 50px;
     background-color: white;
     color: black;
-    width: 100%;
+    width:content;
   }
   nav{
       font-family: 'Lato';
@@ -70,7 +70,7 @@
      padding: 20px;
 }
 img{
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px black;
 }
@@ -79,7 +79,8 @@ img{
         color: #03283f;
         padding: 20px;
         margin: auto;
-        width: 450px;
+        min-width: 350px;
+        max-width: 450px;
         margin: 20px auto;
         border-radius: 20px 40px;
      }
